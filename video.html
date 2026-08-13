@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html>
+        <head><title>slap</title>
+            <style>
+                .box{
+                    border: solid;
+                    border-width: 1px;
+                    display: inline-block;
+                }
+                .video{
+                    width: 1500px;
+                    height: 1000px;
+                    margin-top: 0px;
+                    display: inline-block;
+                    object-fit: cover;
+                    object-position: center;
+                    position: relative;
+
+                }
+                .next{
+                    position: absolute;
+                    top: 80%;
+                    left: 48%;
+                    background-color: transparent;
+                    font-family: arial;
+                    font-weight: bolder;
+                    font-size: 80px;
+                    border-width: 1px;
+                    box-shadow: 2px 2px 8px black;
+                    color: white;
+                    cursor: pointer;
+                }
+                .next:active{
+                    color: white;
+                    background-color: black;
+                    margin-top: 5px;
+                    margin-left: 5px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="box">
+            <video class="video" 
+            src="thumbnails/slapppp.mp4" autoplay muted loop>
+            </video>
+            <button class="next" 
+            onclick="window.location.href='sher.html'"
+            >Next</button>
+            </div>
+        </body>
+    </html>

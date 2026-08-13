@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html>
+        <head><title>exercise9efg</title>
+            <style>
+                .box{
+                    border: solid;
+                    display: flex;
+                    border-width: 1px;
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 15px;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;               
+                }
+                .nimmi{
+                    width: 100px;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 50px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 5px;                   
+                }
+                .what{
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-family: arial;   
+                    margin-right: 50px;                 
+                }
+                .open{
+                    background-color: rgb(54, 167, 254);
+                    border: none;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    border-radius: 20px;
+                    color: white;
+                    font-family: arial;
+                    font-weight: bold;
+                    cursor: pointer;                    
+                }
+                .open:active{
+                    background-color: blue;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="box">
+                <img class="nimmi" src="thumbnails/nimiiii.jpeg"> 
+                <p class="what"> 
+                    <strong>is this you ? 
+                        then click here</strong> >>>
+                </p>
+                
+                <button class="open" 
+                onclick="window.location.href='video.html'">
+                    open
+                </button>                                
+            </div>
+        </body>
+    </html>
